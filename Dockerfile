@@ -1,5 +1,5 @@
 FROM ubuntu:18.04
-MAINTAINER Shane Starcher <shanestarcher@gmail.com>
+MAINTAINER Mo Yakubu <masternda@gmail.com>
 
 RUN \
     apt-get update && \
