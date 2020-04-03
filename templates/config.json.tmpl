@@ -12,8 +12,8 @@
     "host": {{ default "0.0.0.0" .UCHIWA_BIND  | quote }},
     "port": {{ default "3000" .UCHIWA_SERVICE_PORT }},
     "refresh": {{ default "10" .UCHIWA_REFRESH }},
-    "loglevel": {{ default "info" .UCHIWA_LOG_LEVEL | quote }}
-    "user": {{ default "admin" .UCHIWA_USER | quote }}
+    "loglevel": {{ default "info" .UCHIWA_LOG_LEVEL | quote }},
+    "user": {{ default "admin" .UCHIWA_USER | quote }},
     "pass": {{ default "secret" .UCHIWA_PASS | quote }}
   }
 }
